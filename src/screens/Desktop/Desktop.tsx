@@ -10,13 +10,14 @@ export const Desktop = (): JSX.Element => {
 
   // Programming languages data
   const programmingLanguages = [
-    { name: "C++", src: "public/c---1.png" },
-    { name: "Java", src: "public/java-1.png" },
-    { name: "C#", src: "public/c--1.png" },
-    { name: "HTML", src: "public/html-1.png" },
-    { name: "CSS", src: "public/css-1.png" },
-    { name: "JavaScript", src: "public/javascript-1.png" },
-  ];
+  { name: "C++", src: "/c---1.png" },
+  { name: "Java", src: "/java-1.png" },
+  { name: "C#", src: "/c--1.png" },
+  { name: "HTML", src: "/html-1.png" },
+  { name: "CSS", src: "/css-1.png" },
+  { name: "JavaScript", src: "/javascript-1.png" },
+];
+
 
   // Projects data
   const projects = [
